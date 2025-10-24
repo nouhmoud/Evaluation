@@ -2,12 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+<<<<<<< HEAD
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> 8008442 (stock management)
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>3.3.0</version>
         <relativePath/>
     </parent>
@@ -30,12 +35,36 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+=======
+        <version>3.5.7</version>
+    </parent>
+
+    <groupId>ma.projet</groupId>
+    <artifactId>stock-management</artifactId>
+    <version>1.0.0</version>
+    <name>Stock Management</name>
+
+    <properties>
+        <java.version>21</java.version>
+    </properties>
+
+    <dependencies>
+>>>>>>> 8008442 (stock management)
         <!-- Spring Boot Starter Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
+<<<<<<< HEAD
+=======
+        <!-- Spring Boot Starter Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+>>>>>>> 8008442 (stock management)
         <!-- MySQL Driver -->
         <dependency>
             <groupId>com.mysql</groupId>
@@ -43,6 +72,7 @@
             <scope>runtime</scope>
         </dependency>
 
+<<<<<<< HEAD
         <!-- SpringDoc OpenAPI (Swagger UI) -->
         <dependency>
             <groupId>org.springdoc</groupId>
@@ -50,6 +80,8 @@
             <version>${springdoc.version}</version>
         </dependency>
 
+=======
+>>>>>>> 8008442 (stock management)
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -57,6 +89,7 @@
             <optional>true</optional>
         </dependency>
 
+<<<<<<< HEAD
         <!-- Validation -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,6 +102,13 @@
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
+=======
+        <!-- Springdoc OpenAPI (Swagger) -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.3.0</version>
+>>>>>>> 8008442 (stock management)
         </dependency>
 
         <!-- Spring Boot Starter Test -->
@@ -84,6 +124,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
                 <configuration>
                     <excludes>
                         <exclude>
@@ -92,6 +133,8 @@
                         </exclude>
                     </excludes>
                 </configuration>
+=======
+>>>>>>> 8008442 (stock management)
             </plugin>
         </plugins>
     </build>
